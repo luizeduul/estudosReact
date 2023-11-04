@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import PropTypes from 'prop-types';
-import { ThemeContext } from '../../contexts/ThemeContext';
+import { ThemeLayoutContext } from '../../contexts/ThemeStyleContext';
 
 const darkstyle = {
   background: '#000',
@@ -17,7 +17,7 @@ function Button({
   onClick
 }) {
 
-  const {theme} = useContext(ThemeContext);
+  const {theme} = useContext(ThemeLayoutContext);
 
   return (
     <button

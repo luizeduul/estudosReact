@@ -7,5 +7,6 @@ export default {
   headerBackgroundColor: '#AAA',
   footerBackgroundColor: '#AAA',
   postBackgroundColor: '#DDD',
+  navBackgroundColor: '#AAA',
 };
 

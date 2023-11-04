@@ -10,6 +10,9 @@ export const Container = styled.footer`
     border-radius: ${theme.borderRadius};
     justify-content: space-between;
     margin-top: 24px;
+    position: fixed;
+    bottom: 0;
+    width: 95.2vw;
   `}
 
   button {

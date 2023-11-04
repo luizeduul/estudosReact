@@ -1,15 +1,18 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 
 import Header from '../Header';
-import PostsList from '../PostsList';
 import Footer from '../Footer';
+import Routes from '../../Routes';
+import Menu from '../Menu';
 
 export default function Layout() {
   return (
-    <>
+    <BrowserRouter>
       <Header />
-      <PostsList />
+      <Menu />
+      <Routes />
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
